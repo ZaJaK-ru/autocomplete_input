@@ -34,7 +34,7 @@ body {
   background-color: #e3e3e3;
 }
 
-.autocomplete-form__list-items {
+.autocomplete-form__list-item-btn {
   border: 2px solid #000000;
   font-size: 30px;
   line-height: 35px;
@@ -46,7 +46,7 @@ body {
   text-overflow: ellipsis;
 }
 
-.autocomplete-form__list-items:hover {
+.autocomplete-form__list-item-btn:hover {
   background-color: #65cdf9;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .selected-repo__card-list {
-  list-style: none;
+  white-space: pre-line;
 }
 
 .selected-repo__card-list-item {
